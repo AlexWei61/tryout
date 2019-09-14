@@ -21,9 +21,6 @@ def generate_primes(maxnum):
     return prime_nums
 
 if __name__ == "__main__":
-    prime_nums = generate_primes(1000)
+    prime_nums = generate_primes(10000)
     print(prime_nums)
     print(len(prime_nums))
-
-
-
